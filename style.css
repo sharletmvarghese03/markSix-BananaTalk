@@ -30,7 +30,8 @@ body {
 
 .container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 /** textArea **/
@@ -53,5 +54,5 @@ textarea {
 
 .footer .footer-header {
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
