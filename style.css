@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&display=swap');
 
 :root {
 	--primary-color: #fbbf24;
@@ -7,8 +7,40 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Comic Neue', cursive;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+/** nav **/
+
+.navigation {
+	background-color: var(--primary-color);
+	padding: 2rem 1rem;
+}
+
+.nav-brand {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+}
+
+/** Section **/
+
+section {
+	height: 10vh;
+}
+
+/** footer **/
+
+.footer {
+	background-color: var(--primary-color);
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: 3rem;
 }
