@@ -26,10 +26,21 @@ body {
 	text-align: center;
 }
 
-/** Section **/
+/** container **/
 
-section {
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+/** textArea **/
+
+textarea {
+	width: 60%;
 	height: 10vh;
+	display: block;
+	margin: 1rem;
+	padding: 1rem;
 }
 
 /** footer **/
