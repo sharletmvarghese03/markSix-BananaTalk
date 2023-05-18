@@ -2,8 +2,7 @@
 
 :root {
 	--primary-color: #fbbf24;
-	--light-color: #fef3c7;
-	--dark-gray: #a1a1aa;
+	--light-color: #a1a1aa;
 }
 
 body {
@@ -38,8 +37,23 @@ body {
 
 textarea {
 	width: 60%;
-	height: 10vh;
+	height: 20vh;
 	display: block;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+button {
+	background-color: var(--primary-color);
+	font-size: 1.5rem;
+	padding: 1rem 3rem;
+	margin: 1rem;
+}
+
+#output {
+	border: 1px solid black;
+	height: 20vh;
+	width: 60%;
 	margin: 1rem;
 	padding: 1rem;
 }
