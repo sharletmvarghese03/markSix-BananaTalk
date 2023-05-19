@@ -45,6 +45,7 @@ textarea {
 
 button {
 	background-color: var(--primary-color);
+	font-family: inherit;
 	font-size: 1.5rem;
 	padding: 1rem 3rem;
 	margin: 1rem;
